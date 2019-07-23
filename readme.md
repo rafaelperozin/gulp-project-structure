@@ -50,3 +50,6 @@ The autoprefixer have some limitation when converting for ie and to guarantee th
 * When using display grid don't use gird: 100% / 1fr 1fr 1fr auto; Use grid-template-row: 1fr 1fr 1fr auto; and grid-template-column: 100%; grid-gap: 15px; for more information about grid see https://github.com/postcss/autoprefixer#grid-autoplacement-support-in-ie
 * Do not use top: 50%; left: 50%; transform: translatex(-50%) translateY(-50%); To centralize use flexbox or margin.
 * Use separated divs with position: relative and absolute to make an overlay on background images, do not use background: color/gradient, url;
+
+### Possible error
+If your first time running it and return some error on watch or build, check if you have the dist folder with js and css folder on the root.
